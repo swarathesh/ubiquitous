@@ -1,0 +1,35 @@
+{
+  "name": "bookings",
+  "version": "1.0.0",
+  "description": "backend for booking services",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swarathesh/ubiquitous.git"
+  },
+  "keywords": [
+    "movie",
+    "booking"
+  ],
+  "author": "chandra swarathesh addanki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swarathesh/ubiquitous/issues"
+  },
+  "homepage": "https://github.com/swarathesh/ubiquitous#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3",
+    "redibox": "^2.3.0",
+    "redis": "^4.6.10",
+    "redis-om": "^0.4.2",
+    "redis-orm": "^0.0.1",
+    "socket.io": "^4.7.2"
+  }
+}
