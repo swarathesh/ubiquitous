@@ -22,6 +22,6 @@ const cinemaSchema = new Schema({
 });
 
 // Create a Cinema model based on the schema
-const Cinema = mongoose.model("Cinema", cinemaSchema);
+const Cinema = new mongoose.model("Cinema", cinemaSchema);
 
 export default Cinema;

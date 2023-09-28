@@ -1,0 +1,34 @@
+/* movie-booking.component.css */
+
+.seat-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* Adjust the number of columns as needed */
+  grid-gap: 10px; /* Adjust the gap between seats as needed */
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Style for individual seats */
+button {
+  width: 40px; /* Adjust the width of the seats */
+  height: 40px; /* Adjust the height of the seats */
+  font-size: 16px; /* Adjust the font size as needed */
+  background-color: #fff; /* Default seat color */
+  border: 1px solid #ccc; /* Seat border */
+  cursor: pointer;
+}
+
+/* Style for booked seats */
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+/* Style for selected seats (optional) */
+button.selected {
+  background-color: #08121c; /* Selected seat color */
+  color: #fff; /* Text color for selected seats */
+}
